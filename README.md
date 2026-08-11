@@ -54,12 +54,12 @@ whatsapp-chat-sentiment-analyzer/
 └── sample_data/
     └── sample_chat.txt
 
-## How to Run
+**## How to Run**
 Install the required dependencies: pip install -r requirements.txt
 Run the Streamlit application: python -m streamlit run app.py
 (The application opens in a web browser.)
 
-## How It Works
+**## How It Works**
 -The user uploads an exported WhatsApp .txt chat file.
 -The raw chat is processed and converted into structured data.
 -Message statistics and user activity are calculated.

@@ -43,7 +43,7 @@ Sentiment Analysis
         ↓
 Streamlit Dashboard
 
-## Project Structure:
+Project Structure:
 whatsapp-chat-sentiment-analyzer/
 │
 ├── app.py
@@ -54,12 +54,12 @@ whatsapp-chat-sentiment-analyzer/
 └── sample_data/
     └── sample_chat.txt
 
-**## How to Run**
+How to Run
 Install the required dependencies: pip install -r requirements.txt
 Run the Streamlit application: python -m streamlit run app.py
 (The application opens in a web browser.)
 
-**## How It Works**
+How It Works
 -The user uploads an exported WhatsApp .txt chat file.
 -The raw chat is processed and converted into structured data.
 -Message statistics and user activity are calculated.
@@ -68,17 +68,17 @@ Run the Streamlit application: python -m streamlit run app.py
 -The results are displayed through the Streamlit dashboard.
 -Sentiment Analysis
 
-## The application analyzes the sentiment of messages and presents their distribution as:
+The application analyzes the sentiment of messages and presents their distribution as:
 -Positive
 -Negative
 -Neutral
 
-## Limitations:
+Limitations:
 -Accuracy depends on the WhatsApp chat export format.
 -Sarcasm and context may not always be interpreted correctly.
 -Sentiment analysis may be less accurate for regional and mixed languages.
 
-## Future Scope:
+Future Scope:
 -Multilingual sentiment analysis
 -Advanced NLP models
 -Real-time analysis
